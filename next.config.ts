@@ -2,7 +2,13 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ['iili.io'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'iili.io',
+        pathname: '**',
+      },
+    ],
   },
 };
 
