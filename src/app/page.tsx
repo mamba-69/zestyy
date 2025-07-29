@@ -6,7 +6,6 @@ import ProductsSection from "@/components/ProductsSection";
 import QualitySection from "@/components/QualitySection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
-import SocialFeedSection from "@/components/SocialFeedSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -22,8 +21,7 @@ export default function Home() {
         <QualitySection />
         <TestimonialsSection />
         <ContactSection />
-        <SocialFeedSection />
-      </main>
+        </main>
 
       <Footer />
     </div>
